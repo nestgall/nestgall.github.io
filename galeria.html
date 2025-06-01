@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Galeria de arte Doyle</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <header>
+
+
+<div class = "primeraP">
+
+<!---Aki va la pantalla principal solo sera mi foto de perfil al dar click se mostrará mi galeria-->
+
+</div>
+
+
+<div class = "principal">
+
+<h1>Doyle</h1>
+
+
+<div class = msj>
+
+
+<a href="https://www.instagram.com/doyle.twt" target="_blank">
+ @doyle.twt
+</a>
+</div><!---Div click infor a-->
+        </div><!--principal-->
+
+        
+    </header>
+
+
+    <div class = "galerias">
+
+<div class = "obra">
+<img src="caratite.jpg" alt="Error 01: falló de imagen" width="350"
+
+onclick="abrirModal('caratite.jpg', ' ', 'Fecha de terminado: 25/02/2025')">
+
+
+</div>
+
+
+<div class = "obra">
+
+<img src="cara mujer.png" alt="Error 01: falló de imagen" width="350"
+
+onclick="abrirModal('cara mujer.png', ' ', 'Fecha de terminado: 02/02/2025')">
+
+</div>
+
+
+
+<div class = "obra">
+
+<img src="cara.png" alt="Error 01: falló de imagen" width="350"
+
+onclick="abrirModal('cara.png', ' ', ' Fecha de terminado: 29/05/2025')">
+
+</div>
+
+
+
+<div class = obra>
+
+    <img src="grito.jpg" alt="Error 01: falló de imagen" width="350"
+    
+    onclick="abrirModal('grito.jpg', 'Gran grito', 'Fecha de terminado: 28/07/2024')">
+
+
+</div>
+
+<div class = "obra">
+<img src="mariposa.jpg" alt="Error 01: falló de imagen" width="350"
+onclick="abrirModal('mariposa.jpg', ' ', 'Fecha de terminado: 09/09/2024')">
+
+</div>
+
+
+<div class = "obra">
+<img src="carbonperfil.jpg" alt="Error 01: falló de imagen" width="350"
+
+onclick="abrirModal('carbonperfil.jpg', ' ', 'Fecha de terminado: 07/01/2025')">
+
+
+</div>
+
+
+
+<div class = "obra">
+<img src="heriodoarmas.jpg" alt="Error 01: falló de imagen" width="350"
+onclick="abrirModal('heriodoarmas.jpg', 'Herido por tus armas', 'Fecha de terminado: 21/12/2024')">
+
+</div>
+
+
+<div class = "obra">
+<img src="solcara.jpg" alt="Error 01: falló de imagen" width="350"
+onclick="abrirModal('solcara.jpg', ' ', 'Fecha de terminado: 18/02/2025')">
+
+
+</div>
+
+
+<div class = "obra">
+<img src="victoriamuerte.jpg" alt="Error 01: falló de imagen" width="350"
+onclick="abrirModal('victoriamuerte.jpg', 'Mi victoria sobre mi muerte', 'Fecha de terminado: 11/01/2025')">
+
+</div>
+
+
+<div class = "obra">
+
+<img src="unoeneroluna.jpg" alt="Error 01: falló de imagen" width="350"
+
+onclick="abrirModal('unoeneroluna.jpg', ' ', 'Fecha de terminado: 01/01/2025')">
+
+</div>
+
+
+<div class = "obra">
+
+    <img src="viejitocarbon.jpg" alt="Error 01: falló de imagen" width="350"
+    onclick="abrirModal('viejitocarbon.jpg', ' ', 'Fecha de terminado: 01/02/2025')">
+
+</div>
+
+<div class = "obra">
+
+    <img src="condena.jpg" alt="Error 01: falló de imagen" width="350"
+    
+    
+    onclick="abrirModal('condena.jpg', 'Condena', 'Fecha de terminado: 26/04/2025')">
+</div>
+
+<div class = "obra">
+
+    <img src="liberacion.jpg" alt="Error 01: falló de imagen" width="350"
+    
+    onclick="abrirModal('liberacion.jpg', 'Liberación', 'Fecha de terminado: 18/04/2025')">
+
+</div>
+
+
+<div class = "obra">
+
+        <img src="inocente.jpg" alt="Error 01: falló de imagen" width="350"
+        onclick="abrirModal('inocente.jpg', 'No eres inocente', 'Fecha de terminado: 17/03/2025')">
+
+</div>
+
+
+
+<div class = "obra">
+
+        <img src="cambiacolor.jpg" alt="Error 01: falló de imagen" width="350"
+        onclick="abrirModal('cambiacolor.jpg', ' ', 'Fecha de terminado: 23/02/2025')">
+
+</div>
+
+
+<div class = "obra">
+
+       <img src="vm.jpg" alt="Error 01: falló de imagen" width="350"
+       onclick="abrirModal('vm.jpg', 'Vida y muerte', 'Fecha de terminado: 23/04/2025')">
+
+
+</div>
+
+
+
+<div class = "obra">
+       <img src="gatocarah.jpg" alt="Error 01: falló de imagen" width="350"
+       onclick="abrirModal('gatocarah.jpg', ' ', 'Fecha de terminado: 02/03/2025')">
+
+</div>
+
+    </div><!-- div final -->
+
+    
+
+    <!-- ============================texto de pie=============================================================== -->
+<div class = "texa">
+
+  <footer>
+     <p>Puedes hacer click sobre alguna imágen para ver su información</p>
+    <p>© 2025 Doyle. Todos los derechos reservados.</p>
+
+  </footer>
+ 
+
+</div>
+
+
+
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <img id="modal-img" src="" alt="Obra ampliada">
+    <div class="modal-info">
+      <h2 id="modal-title">Título de la obra</h2>
+      <p id="modal-text">Aquí va la descripción larga de la obra.</p>
+      
+    </div>
+  </div>
+</div>
+
+
+<!-- ============================fin del HTML======================================================================= -->
+
+<script>
+
+
+ const modal = document.getElementById('modal');
+  const modalImg = document.getElementById('modal-img');
+  const modalTitle = document.getElementById('modal-title');
+  const modalText = document.getElementById('modal-text');
+  const cerrarBtn = document.getElementById('cerrar');
+
+
+
+  //para cerrar cuando se hace click afuera de la imagen
+  window.addEventListener('click', (e) => {
+
+    if(e.target === modal) {
+      modal.style.display = 'none';
+    }
+  });
+
+
+  
+// pa mostrar el cuadrto con info
+  function abrirModal(src, titulo, descripcion) {
+    modalImg.src = src;
+    modalTitle.textContent = titulo;
+    modalText.textContent = descripcion;
+    modal.style.display = 'flex';
+  };
+
+
+</script>
+
+
+</body>
+</html>

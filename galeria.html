@@ -21,10 +21,11 @@
 
 <div class = msj>
 
+    <button onclick="abrirModal('qr.jpg', ' ', 'Puedes conservar este código para acceder a la galería en cualquier momento :D')">
+    Código QR de la página
 
-<a href="https://www.instagram.com/doyle.twt" target="_blank">
- @doyle.twt
-</a>
+  </button>
+
 </div><!---Div click infor a-->
         </div><!--principal-->
 
@@ -177,7 +178,25 @@ onclick="abrirModal('unoeneroluna.jpg', ' ', 'Fecha de terminado: 01/01/2025')">
 
 </div>
 
+
+
+  <div  class = "obra">
+
+      <img src="bodegon.jpg" alt="Error 01: falló de imagen" width = "350"
+      onclick="abrirModal('bodegon.jpg', ' ', 'Fecha de terminado: 04/06/2025')">
+
+  </div>
+
+  <div class = "obra">
+
+      <img src="derrumbe.jpg" alt="Error 01: falló de imagen" width = "350"
+      onclick="abrirModal('derrumbe.jpg', 'Derrumbe', 'Fecha de terminado: 06/06/2025')">
+
+  </div>
+
     </div><!-- div final -->
+
+
 
     
 
@@ -186,12 +205,20 @@ onclick="abrirModal('unoeneroluna.jpg', ' ', 'Fecha de terminado: 01/01/2025')">
 
   <footer>
 
-     <button onclick="abrirModal('qr.jpg', ' ', 'Puedes conservar este código para acceder a la galería en cualquier momento :D')">
-    Código QR de la página
 
-  </button>
+  <P>
+
+    Instagram: 
+
+    <a href="https://www.instagram.com/doyle.twt" target="_blank" >
+ @doyle.twt
+    </a>
+  </P>
+  
 
     <p>© 2025 Doyle. Todos los derechos reservados.</p>  
+
+
         
   </footer>
  
@@ -273,6 +300,16 @@ font-size: 45px;
 
   text-align: right;
 
+
+  button{
+
+
+  background-color: black;
+    color: gray;
+    cursor: pointer;
+    border-radius: 10%;
+}
+
 }
 
 
@@ -313,14 +350,6 @@ background-color: rgb(0, 0, 0);
  color: gray;
 
 
-button{
-
-
-  background-color: black;
-    color: gray;
-    cursor: pointer;
-    border-radius: 10%;
-}
 }
 
 
@@ -376,9 +405,6 @@ button{
 
 
 }
-
-
-
 
 
 </style>
